@@ -20,7 +20,6 @@ const basicAuth = async (req, res, next) => {
   let encodedString = basicHeaderParts.pop();  // am9objpmb28=
   let decodedString = base64.decode(encodedString); // "username:password"
   let [username, password] = decodedString.split(':'); // username, password
-
   /*
     Now that we finally have username and password, let's see if it's valid
     1. Find the user in the database by username
