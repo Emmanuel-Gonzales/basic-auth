@@ -31,6 +31,7 @@ router.post('/signup', async (req, res) => {
 // test with httpie
 // http post :3000/signin -a john:foo
 router.post('/signin', basicAuth, (req, res) => {
+  
   res.status(200).json(req.user);
 });
 

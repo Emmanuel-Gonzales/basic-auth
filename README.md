@@ -6,13 +6,12 @@
 
 ### Problem Domain  
 
-This lab is to Practice making express servers in basic authentication capabilities.
+This lab is to Practice making express servers in basic authentication capabilities. Made with help from Ryans lecture.
 
 ### Links and Resources
 
 - [GitHub Actions ci/cd](https://github.com/Emmanuel-Gonzales/basic-auth/actions)
-- [back-end server url](http://xyz.com) (https://basic-auth-ppxb.onrender.com)
-- [front-end application](http://xyz.com) (when applicable)
+- [back-end server url](https://basic-auth-ppxb.onrender.com)
 
 ### Collaborators
 
